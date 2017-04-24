@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64CD70A71EAE0BD8002C8E0D /* MainModuleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD70A61EAE0BD8002C8E0D /* MainModuleManager.swift */; };
+		64CD70AB1EAE1044002C8E0D /* TabPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD70AA1EAE1044002C8E0D /* TabPresenter.swift */; };
+		64CD70AD1EAE1054002C8E0D /* TabInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD70AC1EAE1054002C8E0D /* TabInteractor.swift */; };
+		64CD70AF1EAE105D002C8E0D /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD70AE1EAE105D002C8E0D /* TabView.swift */; };
+		64CD70B31EAE1E75002C8E0D /* TabRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD70B21EAE1E75002C8E0D /* TabRouter.swift */; };
+		64CD70B61EAE1EDE002C8E0D /* TabModuleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD70B51EAE1EDE002C8E0D /* TabModuleManager.swift */; };
+		64CD70BB1EAE2380002C8E0D /* SubTabInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD70BA1EAE2380002C8E0D /* SubTabInteractor.swift */; };
+		64CD70BD1EAE238B002C8E0D /* SubTabPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD70BC1EAE238B002C8E0D /* SubTabPresenter.swift */; };
+		64CD70BF1EAE2393002C8E0D /* SubTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD70BE1EAE2393002C8E0D /* SubTabView.swift */; };
+		64CD70C11EAE23A0002C8E0D /* SubTabModuleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD70C01EAE23A0002C8E0D /* SubTabModuleManager.swift */; };
+		64CD70C41EAE24DE002C8E0D /* StackItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD70C31EAE24DE002C8E0D /* StackItem.swift */; };
+		64CD70C61EAE329E002C8E0D /* ModalModuleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD70C51EAE329E002C8E0D /* ModalModuleManager.swift */; };
+		64CD70C81EAE32F3002C8E0D /* ModalInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD70C71EAE32F3002C8E0D /* ModalInteractor.swift */; };
+		64CD70CA1EAE342D002C8E0D /* ModalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD70C91EAE342D002C8E0D /* ModalPresenter.swift */; };
+		64CD70CC1EAE343E002C8E0D /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD70CB1EAE343E002C8E0D /* ModalView.swift */; };
 		64DC5E0A1EA9E87200A5459E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC5E091EA9E87200A5459E /* AppDelegate.swift */; };
-		64DC5E0C1EA9E87200A5459E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC5E0B1EA9E87200A5459E /* ViewController.swift */; };
 		64DC5E0F1EA9E87200A5459E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64DC5E0D1EA9E87200A5459E /* Main.storyboard */; };
 		64DC5E111EA9E87200A5459E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64DC5E101EA9E87200A5459E /* Assets.xcassets */; };
 		64DC5E141EA9E87200A5459E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64DC5E121EA9E87200A5459E /* LaunchScreen.storyboard */; };
+		64DC5E341EA9EC2100A5459E /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC5E331EA9EC2100A5459E /* MainRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64CD70A61EAE0BD8002C8E0D /* MainModuleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainModuleManager.swift; sourceTree = "<group>"; };
+		64CD70AA1EAE1044002C8E0D /* TabPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabPresenter.swift; sourceTree = "<group>"; };
+		64CD70AC1EAE1054002C8E0D /* TabInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabInteractor.swift; sourceTree = "<group>"; };
+		64CD70AE1EAE105D002C8E0D /* TabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		64CD70B21EAE1E75002C8E0D /* TabRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabRouter.swift; sourceTree = "<group>"; };
+		64CD70B51EAE1EDE002C8E0D /* TabModuleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabModuleManager.swift; sourceTree = "<group>"; };
+		64CD70BA1EAE2380002C8E0D /* SubTabInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubTabInteractor.swift; sourceTree = "<group>"; };
+		64CD70BC1EAE238B002C8E0D /* SubTabPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubTabPresenter.swift; sourceTree = "<group>"; };
+		64CD70BE1EAE2393002C8E0D /* SubTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubTabView.swift; sourceTree = "<group>"; };
+		64CD70C01EAE23A0002C8E0D /* SubTabModuleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubTabModuleManager.swift; sourceTree = "<group>"; };
+		64CD70C31EAE24DE002C8E0D /* StackItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackItem.swift; sourceTree = "<group>"; };
+		64CD70C51EAE329E002C8E0D /* ModalModuleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalModuleManager.swift; sourceTree = "<group>"; };
+		64CD70C71EAE32F3002C8E0D /* ModalInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalInteractor.swift; sourceTree = "<group>"; };
+		64CD70C91EAE342D002C8E0D /* ModalPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalPresenter.swift; sourceTree = "<group>"; };
+		64CD70CB1EAE343E002C8E0D /* ModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		64DC5E061EA9E87200A5459E /* UIKitViper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitViper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64DC5E091EA9E87200A5459E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		64DC5E0B1EA9E87200A5459E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		64DC5E0E1EA9E87200A5459E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64DC5E101EA9E87200A5459E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64DC5E131EA9E87200A5459E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64DC5E151EA9E87200A5459E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64DC5E331EA9EC2100A5459E /* MainRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +65,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64CD70A41EAE0B3A002C8E0D /* MainWireframe */ = {
+			isa = PBXGroup;
+			children = (
+				64DC5E331EA9EC2100A5459E /* MainRouter.swift */,
+				64CD70A61EAE0BD8002C8E0D /* MainModuleManager.swift */,
+			);
+			name = MainWireframe;
+			sourceTree = "<group>";
+		};
+		64CD70B41EAE1EC1002C8E0D /* SubTab */ = {
+			isa = PBXGroup;
+			children = (
+				64CD70C01EAE23A0002C8E0D /* SubTabModuleManager.swift */,
+				64CD70BA1EAE2380002C8E0D /* SubTabInteractor.swift */,
+				64CD70BC1EAE238B002C8E0D /* SubTabPresenter.swift */,
+				64CD70BE1EAE2393002C8E0D /* SubTabView.swift */,
+			);
+			name = SubTab;
+			sourceTree = "<group>";
+		};
+		64CD70B81EAE2340002C8E0D /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				64CD70C51EAE329E002C8E0D /* ModalModuleManager.swift */,
+				64CD70C71EAE32F3002C8E0D /* ModalInteractor.swift */,
+				64CD70C91EAE342D002C8E0D /* ModalPresenter.swift */,
+				64CD70CB1EAE343E002C8E0D /* ModalView.swift */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		64CD70C21EAE24D1002C8E0D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				64CD70C31EAE24DE002C8E0D /* StackItem.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
 		64DC5DFD1EA9E87200A5459E = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +123,38 @@
 		64DC5E081EA9E87200A5459E /* UIKitViper */ = {
 			isa = PBXGroup;
 			children = (
+				64CD70C21EAE24D1002C8E0D /* Protocols */,
+				64DC5E301EA9EA6500A5459E /* Modules */,
 				64DC5E091EA9E87200A5459E /* AppDelegate.swift */,
-				64DC5E0B1EA9E87200A5459E /* ViewController.swift */,
 				64DC5E0D1EA9E87200A5459E /* Main.storyboard */,
 				64DC5E101EA9E87200A5459E /* Assets.xcassets */,
 				64DC5E121EA9E87200A5459E /* LaunchScreen.storyboard */,
 				64DC5E151EA9E87200A5459E /* Info.plist */,
 			);
 			path = UIKitViper;
+			sourceTree = "<group>";
+		};
+		64DC5E301EA9EA6500A5459E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				64CD70A41EAE0B3A002C8E0D /* MainWireframe */,
+				64DC5E311EA9EA7700A5459E /* MainTab */,
+				64CD70B81EAE2340002C8E0D /* Modal */,
+				64CD70B41EAE1EC1002C8E0D /* SubTab */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		64DC5E311EA9EA7700A5459E /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				64CD70B51EAE1EDE002C8E0D /* TabModuleManager.swift */,
+				64CD70B21EAE1E75002C8E0D /* TabRouter.swift */,
+				64CD70AC1EAE1054002C8E0D /* TabInteractor.swift */,
+				64CD70AA1EAE1044002C8E0D /* TabPresenter.swift */,
+				64CD70AE1EAE105D002C8E0D /* TabView.swift */,
+			);
+			name = MainTab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +230,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64DC5E0C1EA9E87200A5459E /* ViewController.swift in Sources */,
+				64CD70AD1EAE1054002C8E0D /* TabInteractor.swift in Sources */,
+				64CD70BD1EAE238B002C8E0D /* SubTabPresenter.swift in Sources */,
+				64CD70B61EAE1EDE002C8E0D /* TabModuleManager.swift in Sources */,
+				64CD70CC1EAE343E002C8E0D /* ModalView.swift in Sources */,
 				64DC5E0A1EA9E87200A5459E /* AppDelegate.swift in Sources */,
+				64CD70CA1EAE342D002C8E0D /* ModalPresenter.swift in Sources */,
+				64DC5E341EA9EC2100A5459E /* MainRouter.swift in Sources */,
+				64CD70BB1EAE2380002C8E0D /* SubTabInteractor.swift in Sources */,
+				64CD70AF1EAE105D002C8E0D /* TabView.swift in Sources */,
+				64CD70A71EAE0BD8002C8E0D /* MainModuleManager.swift in Sources */,
+				64CD70C41EAE24DE002C8E0D /* StackItem.swift in Sources */,
+				64CD70C81EAE32F3002C8E0D /* ModalInteractor.swift in Sources */,
+				64CD70C61EAE329E002C8E0D /* ModalModuleManager.swift in Sources */,
+				64CD70BF1EAE2393002C8E0D /* SubTabView.swift in Sources */,
+				64CD70B31EAE1E75002C8E0D /* TabRouter.swift in Sources */,
+				64CD70C11EAE23A0002C8E0D /* SubTabModuleManager.swift in Sources */,
+				64CD70AB1EAE1044002C8E0D /* TabPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +410,7 @@
 				64DC5E1A1EA9E87200A5459E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
